@@ -1,34 +1,30 @@
 {
-    "$schema": "./manifest_schema.json",
-    "manifest_version": 4,
-    "type": "extension",
-    "name": "插件模板",
-    "slug": "plugin_template",
-    "description": "LiteLoaderQQNT的插件模板",
-    "version": "0.1.0",
-    "icon": "./icon.png",
-    "authors": [
-        {
-            "name": "LiteLoaderQQNT",
-            "link": "https://github.com/LiteLoaderQQNT"
-        }
-    ],
-    "platform": [
-        "win32",
-        "linux",
-        "darwin"
-    ],
-    "injects": {
-        "renderer": "./src/renderer.js",
-        "main": "./src/main.js",
-        "preload": "./src/preload.js"
-    },
-    "repository": {
-        "repo": "LiteLoaderQQNT/Plugin-Template",
-        "branch": "main",
-        "release": {
-            "tag": "0.1.0",
-            "file": "Plugin-Template.zip"
-        }
-    }
+	"$schema": "./manifest_schema.json",
+	"manifest_version": 4,
+	"type": "theme",
+	"name": "Vibrancy",
+	"slug": "vibrancy",
+	"description": "改变 QQNT 的背景材质",
+	"version": "0.1.0",
+	"icon": "./icon.png",
+	"authors": [
+		{
+			"name": "d0j1a1701",
+			"link": "https://github.com/d0j1a1701"
+		}
+	],
+	"platform": ["win32"],
+	"injects": {
+		"renderer": "./src/renderer.js",
+		"main": "./src/main.js",
+		"preload": "./src/preload.js"
+	},
+	"repository": {
+		"repo": "d0j1a1701/llqqnt-vibrancy",
+		"branch": "main",
+		"release": {
+			"tag": "0.1.0",
+			"file": "vibrancy.zip"
+		}
+	}
 }
